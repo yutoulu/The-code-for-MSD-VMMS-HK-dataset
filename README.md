@@ -5,4 +5,7 @@ Mobile mapping is the research trend in the mapping field due to its superior ti
 
 The vehicle-based mobile mapping system integrates high-precision laser sensors, HDR panoramic cameras, GNSS devices, and inertial navigation systems, enabling continuous acquisition of vast spatial data in dynamic environments and accurate completion of measurement tasks. It is adaptable for installation on diverse carriers, including cars, trains, and ships, and adeptly handles multifaceted tasks while efficiently collecting high-density and high-precision point cloud and image data during vehicular operation. These features collectively position it as a highly innovative mobile mapping system.
 
+<img width="336" alt="2" src="https://github.com/user-attachments/assets/dcffff90-c8c1-4723-b2ea-af964f85f8e3" />
+
+
 The Riegl2pcd.cpp module processes raw LiDAR data acquired by the Riegl VUX-1HA scanner, converting the original point cloud records (Riegl_Points/Points.csv) into discrete single-frame point cloud outputs (Riegl_Points/Scans). This preprocessing step enables efficient downstream point cloud reconstruction tasks by providing properly formatted frame-based point cloud data.
