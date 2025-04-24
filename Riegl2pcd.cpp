@@ -12,7 +12,9 @@
 #include <pcl/filters/filter.h>
 #include <pcl/common/transforms.h>
 #include <Eigen/Dense>
-//use: ./Riegl2pcd ./230629_074854.csv ./scans
+
+//Usage: ./Riegl2pcd ./Data_LiDAR/Riegl_Points/Points.csv ./Data_LiDAR/Riegl_Points/Scans
+
 struct PointXYZIRPYT
 {
     PCL_ADD_POINT4D
