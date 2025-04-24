@@ -9,3 +9,5 @@ The vehicle-based mobile mapping system integrates high-precision laser sensors,
 
 
 The Riegl2pcd.cpp module processes raw LiDAR data acquired by the Riegl VUX-1HA scanner, converting the original point cloud records (Riegl_Points/Points.csv) into discrete single-frame point cloud outputs (Riegl_Points/Scans). This preprocessing step enables efficient downstream point cloud reconstruction tasks by providing properly formatted frame-based point cloud data.
+
+Usage: ./Riegl2pcd ./Data_LiDAR/Riegl_Points/Points.csv ./Data_LiDAR/Riegl_Points/Scans
